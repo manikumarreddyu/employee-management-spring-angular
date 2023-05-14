@@ -1,4 +1,4 @@
-package net.javaguides.springbootbackend2.controller;
+package com.mani.employee.controller;
 
 
 import java.util.HashMap;
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.javaguides.springbootbackend2.exception.ResourceNotFoundException;
-import net.javaguides.springbootbackend2.model.Employee;
-import net.javaguides.springbootbackend2.repository.EmployeeRepository;
+import com.mani.employee.exception.ResourceNotFoundException;
+import com.mani.employee.model.Employee;
+import com.mani.employee.repository.EmployeeRepository;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController

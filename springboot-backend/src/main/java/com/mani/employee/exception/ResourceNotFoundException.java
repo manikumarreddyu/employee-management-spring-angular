@@ -1,4 +1,4 @@
-package net.javaguides.springbootbackend2.exception;
+package com.mani.employee.exception;
 
 
 import org.springframework.http.HttpStatus;
